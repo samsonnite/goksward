@@ -141,7 +141,7 @@ h1:after{
 }
 /*-------------------MODERN NAV------------*/
 .navigation{
-	
+	overflow: hidden;
 }
 .navigation_checkbox{
 	display: none;
@@ -181,6 +181,7 @@ h1:after{
 	z-index: 1500;
 	opacity: 0;
 	width: 0;
+	height: 0;
 	transition: all .8s cubic-bezier(0.68,-0.55,0.265,1.55);
 	
 }
@@ -515,6 +516,7 @@ h1:after{
 	right: 3rem;
 	
 	
+	
 }
 .navigation_background {
 	height: 3rem;
@@ -561,8 +563,8 @@ h1:after{
 	
 .navigation_link:link,
 .navigation_link:visited{
+	padding: 0.5rem 1rem;
 	
-	padding: 0.5rem 1rem;	
 }
 	
 	/*---------------------END OF RESPONSIVE ICONS---------------*/
@@ -576,72 +578,7 @@ h1:after{
 	margin-top: -50px;
 	margin-left: 20%;
 }
-} 
-
-
-
-/*--------------------MEMBERS--------------------------*/
-
-.card {
-	margin-top: 20px;
- padding: 5px;
-  perspective: 150rem;
-  -moz-perspective: 150rem;
-  position: relative;
-  height: 20rem; }
-  .card__side {
-    height: 20rem;
-    transition: all .8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-    .card__side--front {
-      background-color: #fff; }
-    .card__side--back {
-      transform: rotateY(180deg); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
-  .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
-  .card:hover .card__side--back {
-    transform: rotateY(0); }
-  .card__picture {
-    background-size: cover;
-    height: 20rem;
-    background-blend-mode: screen;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
-.card__picture img{
-	height: 100%;
-	width: 100%;
 }
- 
-
-  .card__details {
-    padding: 3rem; }
-    .card__details ul {
-      list-style: none;
-      width: 80%;
-      margin: 0 auto; }
-      .card__details ul li {
-        text-align: center;
-        font-size: .8rem;
-        padding: 1rem; }
-        .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #eee; }
-  .card__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center; }
-  
 
 
 
