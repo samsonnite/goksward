@@ -1,0 +1,33 @@
+/*Big tablets*/
+@media only screen and(max-width: 1200px){
+	
+}
+/*small tablets to big tablets*/
+@media only screen and(max-width: 1023px){
+	
+}
+/*small phones to small tablets*/
+@media only screen and(max-width: 767px){
+	
+}
+/*small phones*/
+@media screen and (max-width: 480px){
+	h1{
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #555;
+	font-size: 100%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-align: center;
+}
+h1:after{
+	
+	margin-top: 10px;
+}
+.section{
+	padding: 20px 0;
+}
+}
